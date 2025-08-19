@@ -4,6 +4,14 @@
     font-family: 'Bestermind';
     src: url(assets/fonts/BestermindRegular.ttf);
 }
-.logo{
-    font-family: 'Bestermind';
+@font-face{
+    font-family: 'Inter-black';
+    src: url(assets/fonts/Inter_Black.ttf)
+}
+@font-face{
+    font-family: 'Inter';
+    src: url(assets/fonts/Inter_18pt-Medium.ttf)
+}
+*{
+    font-family: 'Inter';
 }

@@ -1,17 +1,28 @@
 import React from 'react'
+import   mailicon from '../assets/img/mail.svg'
+import   linicon from '../assets/img/linkedin.svg'
+import   Xicon from '../assets/img/x.svg'
+import   logo from '../assets/img/logo.jpg'
+import { NavLink } from 'react-router-dom'
 
 const Navbar = () => {
   return (
     <>
-      <div className="header sticky top-0 bg-zinc-900 flex justify-between py-3 px-10 text-white">
-        <div className="logo text-2xl">Akash patil</div>
-        <div className="links">
-          <ul className='flex gap-5 text-lg'>
-            <li>About Me</li>
-            <li>Education</li>
-            <li>Project</li>
-            <li><button>Resume</button></li>
-          </ul>
+      <div className='flex justify-between border-[#c8c0c091] border-b p-3'>
+        <div className="navr flex justify-center items-center gap-3">
+          <div className="logo">
+            <img className='w-[1.8rem] h-[1.8rem]' src={logo} alt="" />
+          </div>
+          <div className="navtext">
+            <h1 className='text-white text-sm'>Akash Patil</h1>
+            <h3 className='text-neutral-400 text-xs'>Software Developer</h3>
+          </div>
+        </div>
+        <div className="navl flex justify-center items-center gap-3">
+          <img className='w-[16px] h-[16px]' src={linicon} alt="" />
+          <img className='w-[18px] h-[18px]' src={Xicon} alt="" />
+          <img className='w-[20px] h-[20px]' src={mailicon} alt="" />
+          
         </div>
       </div>
     </>
