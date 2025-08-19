@@ -8,7 +8,7 @@ import { NavLink } from 'react-router-dom'
 const Navbar = () => {
   return (
     <>
-      <div className='flex justify-between border-[#c8c0c091] border-b p-3'>
+      <div className='flex justify-between border-[#c8c0c091] border-b p-3 mb-5'>
         <div className="navr flex justify-center items-center gap-3">
           <div className="logo">
             <img className='w-[1.8rem] h-[1.8rem]' src={logo} alt="" />
