@@ -3,7 +3,6 @@ import   mailicon from '../assets/img/mail.svg'
 import   linicon from '../assets/img/linkedin.svg'
 import   Xicon from '../assets/img/x.svg'
 import   logo from '../assets/img/logo.jpg'
-import { NavLink } from 'react-router-dom'
 
 const Navbar = () => {
   return (
