@@ -1,10 +1,13 @@
 import React from 'react'
 import Projectcard from '../component/Projectcard'
 import Techbtn from '../component/Techbtn'
+import Navbar from '../component/Navbar'
 
 const Projects = () => {
   return (
-    <div className='flex flex-col bg-black/95 p-5 gap-6 min-h-screen'>
+    <>
+    
+    <div className='flex flex-col bg-black p-5 gap-6 min-h-screen'>
       <div className='flex flex-col justify-center items-center gap-2'>
         <div className='inline-block bg-gradient-to-r from-gray-700 to-gray-900 rounded-lg px-3 py-1 text-white text-sm'>
         Project Showcase
@@ -43,6 +46,7 @@ const Projects = () => {
 
       </div>
     </div>
+    </>
   )
 }
 
