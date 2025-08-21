@@ -5,7 +5,7 @@ import gitlogo from '../assets/img/gitlogo.svg'
 const Projectcard = ({ projecttitle, description, vidurl, gitlink, sitelink, children }) => {
     return (
         <div className='flex flex-col rounded-lg border border-neutral-700 overflow-hidden'>
-            <video className='mx-auto w-full bg-zinc-500 h-[240px] object-cover object-top pointer-events-none' src={vidurl}></video>
+            <video className='mx-auto w-full bg-zinc-900 h-[240px] object-cover object-top pointer-events-none' src={vidurl}></video>
             <div className='p-3 flex flex-col'>
                 <div className='flex justify-between items-center w-full'>
                     <h3 className='mt-1 font-semibold text-white text-base tracking-tight'>
