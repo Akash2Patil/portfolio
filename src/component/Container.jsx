@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Container = ({title,subtitle,children}) => {
+const Container = ({title,subtitle,children,className}) => {
   return (
-    <div className='relative w-full h-full bg-[#1E1E1E] shadow-xl border border-neutral-600 rounded-lg p-3'>
+    <div className={`relative w-full h-full bg-[#1E1E1E] shadow-xl border border-neutral-600 rounded-lg p-3 ${className}`}>
       <div className='w-full mb-2'>
         <div className='flex justify-between items-center'>
             <p className='text-white text-xs'>
