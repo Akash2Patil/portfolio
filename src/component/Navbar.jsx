@@ -21,7 +21,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className="navl flex justify-center items-center gap-3">
-          <Link className='text-white' to='/projects'>projects</Link>
+          {/* <Link className='text-white' to='/projects'>projects</Link> */}
           <a href='https://www.linkedin.com/in/akashpatil0139/' target='_blank'><img className='w-[16px] h-[16px]' src={linicon} alt="" /></a>
           <a href='https://x.com/AkashPatil45317' target='_blank'><img className='w-[18px] h-[18px]' src={Xicon} alt="" /></a>
           <a href='mailto:akash.patil.dev13@gmail.com'><img className='w-[20px] h-[20px]' src={mailicon} alt="" /></a>
